@@ -17,7 +17,7 @@
         .img {
             width: 80px;
         }
-        .img-sub{
+        .img-gender{
             width: 50px;
             height: 50px; /* Add height to ensure consistency */
             object-fit: cover;
@@ -46,7 +46,7 @@
             <!-- Male Column -->
             <div class="stat-card flex items-center justify-between">
                 <div class="flex items-center pr-1">
-                    <img src="{{ asset($male_img) }}" alt="Male" class="img-sub mr-1">
+                    <img src="{{ asset($male_img) }}" alt="Male" class="img-gender mr-1">
                 </div>
                 <div class="flex flex-col items-center">
                     <!-- Column 2 Row 1: h1 -->
@@ -59,7 +59,7 @@
             <!-- Female Column -->
             <div class="stat-card flex items-center justify-between">
                 <div class="flex items-center pr-1">
-                    <img src="{{ asset($female_img) }}" alt="Female" class="img-sub mr-1">
+                    <img src="{{ asset($female_img) }}" alt="Female" class="img-gender mr-1">
                 </div>
                 <div class="flex flex-col items-center">
                     <!-- Column 2 Row 1: h1 -->

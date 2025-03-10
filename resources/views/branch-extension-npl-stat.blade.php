@@ -17,9 +17,9 @@
         .img {
             width: 40px;
         }
-        .img-sub{
-            width: 50px;
-            height: 50px; /* Add height to ensure consistency */
+        .img-branch{
+            width: 40px;
+            height: 40px; /* Add height to ensure consistency */
             object-fit: cover;
         }
         .stat-card {
@@ -37,7 +37,7 @@
             <!-- Male Column -->
             <div class="stat-card flex items-center justify-between">
                 <div class="flex items-center pr-1">
-                    <img src="{{ asset($account) }}" alt="Branches" class="img-sub mr-2">
+                    <img src="{{ asset($account) }}" alt="Branches" class="img-branch mr-2">
                 </div>
                 <div class="flex flex-col items-center">
                     <!-- Column 2 Row 1: h1 -->
@@ -50,7 +50,7 @@
             <!-- Female Column -->
             <div class="stat-card flex items-center justify-between">
                 <div class="flex items-center pr-1">
-                    <img src="{{ asset($client) }}" alt="Extansions" class="img-sub mr-2">
+                    <img src="{{ asset($client) }}" alt="Extansions" class="img-branch mr-2">
                 </div>
                 <div class="flex flex-col items-center">
                     <!-- Column 2 Row 1: h1 -->
