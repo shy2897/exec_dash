@@ -43,7 +43,7 @@
         <div class="grid grid-cols-2 gap-2">
             <!-- Male Column -->
             <div class="stat-card flex items-center justify-between">
-                <div class="flex items-centerpr-1">
+                <div class="flex items-center pr-1">
                     <img src="{{ asset($male_img) }}" alt="Male" class="img-sub mr-1">
                 </div>
                 <div class="flex flex-col items-center">
