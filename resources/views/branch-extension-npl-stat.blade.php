@@ -18,7 +18,9 @@
             width: 40px;
         }
         .img-sub{
-            width: 70px;
+            width: 50px;
+            height: 50px; /* Add height to ensure consistency */
+            object-fit: cover;
         }
         .stat-card {
             background-color: #ffffff;
