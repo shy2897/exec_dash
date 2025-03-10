@@ -19,6 +19,8 @@
         }
         .img-sub{
             width: 60px;
+            height: 60px; /* Add height to ensure consistency */
+            object-fit: cover;
         }
         .stat-card {
             background-color: #ffffff;
@@ -34,7 +36,7 @@
         <div class="stat-card flex items-center justify-between">
             <div class="flex items-center">
                 <img src="{{ asset($imagePath) }}" alt="Employees" class="img mr-4">
-                <h1 class="text-lg font-normal card-title">Just Total</h1>
+                <h1 class="text-lg font-normal card-title">Total Employees</h1>
             </div>
             <span class="text-xl font-semibold text-gray-800">{{ $employees }}</span>
         </div>
