@@ -50,27 +50,6 @@ class PermissionSeeder extends Seeder
 
         DB::table('role_has_permissions')->insert([
 
-            ['permission_id' => '11', 'role_id' => '1'],
-            ['permission_id' => '12', 'role_id' => '1'],
-            ['permission_id' => '13', 'role_id' => '1'],
-            ['permission_id' => '14', 'role_id' => '1'],
-            ['permission_id' => '15', 'role_id' => '1'],
-            ['permission_id' => '21', 'role_id' => '1'],
-            ['permission_id' => '22', 'role_id' => '1'],
-            ['permission_id' => '23', 'role_id' => '1'],
-            ['permission_id' => '24', 'role_id' => '1'],
-            ['permission_id' => '25', 'role_id' => '1'],
-            ['permission_id' => '31', 'role_id' => '1'],
-            ['permission_id' => '32', 'role_id' => '1'],
-            ['permission_id' => '33', 'role_id' => '1'],
-            ['permission_id' => '34', 'role_id' => '1'],
-            ['permission_id' => '35', 'role_id' => '1'],
-            ['permission_id' => '41', 'role_id' => '1'],
-            ['permission_id' => '42', 'role_id' => '1'],
-            ['permission_id' => '43', 'role_id' => '1'],
-            ['permission_id' => '44', 'role_id' => '1'],
-            ['permission_id' => '45', 'role_id' => '1'],
-
             ['permission_id' => '15', 'role_id' => '2'],
             ['permission_id' => '25', 'role_id' => '2'],
             ['permission_id' => '35', 'role_id' => '2'],
