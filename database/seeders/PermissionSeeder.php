@@ -40,7 +40,6 @@ class PermissionSeeder extends Seeder
 
         DB::table('roles')->insert([
 
-            ['id'=> '1', 'name' => 'super-admin', 'guard_name' => 'filament'],
             ['id'=> '2', 'name' => 'ceo', 'guard_name' => 'filament'],
             ['id'=> '3', 'name' => 'finance', 'guard_name' => 'filament'],
             ['id'=> '4', 'name' => 'operation', 'guard_name' => 'filament'],
