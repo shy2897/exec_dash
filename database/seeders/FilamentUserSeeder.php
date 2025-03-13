@@ -14,13 +14,6 @@ class FilamentUserSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('filament_users')->insert([
-            ['id'=> '1',
-            'first_name' => 'Super',
-            'last_name' => 'Admin',
-            'email' => 'super_admin@bnb.bt',
-            'password' => Hash::make('edash@BNBL2025'),
-            ],
-        ]);
+        
     }
 }
