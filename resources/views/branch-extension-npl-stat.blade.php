@@ -22,6 +22,11 @@
             height: 40px; /* Add height to ensure consistency */
             object-fit: cover;
         }
+        .img-extension{
+            width: 30px;
+            height: 30px; /* Add height to ensure consistency */
+            object-fit: cover;
+        }
         .stat-card {
             background-color: #ffffff;
             border-radius: 0.5rem;
@@ -50,7 +55,7 @@
             <!-- Female Column -->
             <div class="stat-card flex items-center justify-between">
                 <div class="flex items-center pr-1">
-                    <img src="{{ asset($client) }}" alt="Extansions" class="img-branch mr-2">
+                    <img src="{{ asset($client) }}" alt="Extansions" class="img-extension mr-2">
                 </div>
                 <div class="flex flex-col items-center">
                     <!-- Column 2 Row 1: h1 -->
